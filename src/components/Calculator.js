@@ -3,32 +3,32 @@ import React from 'react';
 class Calculator extends React.Component {
   constructor(props) {
     super(props);
-		this.state = {}
-}
+    this.state = {};
+  }
 
   render() {
-		return (
-      <div className='calculator-grid'>
-        <div className='output'>0</div>
+    return (
+  <div className="calculator-grid">
+        <div className="output">0</div>
         <button type="button">AC</button>
         <button type="button">+/-</button>
         <button type="button">%</button>
-        <button className='orange' type="button">&divide;</button>
+        <button className="orange" type="button">&divide;</button>
         <button type="button">7</button>
         <button type="button">8</button>
         <button type="button">9</button>
-        <button className='orange' type="button">&times;</button>
+        <button className="orange" type="button">&times;</button>
         <button type="button">4</button>
         <button type="button">5</button>
         <button type="button">6</button>
-        <button className='orange' type="button">-</button>
+        <button className="orange" type="button">-</button>
         <button type="button">1</button>
         <button type="button">2</button>
         <button type="button">3</button>
-        <button className='orange' type="button">+</button>
-        <button className='span-two' type="button">0</button>
+        <button className="orange" type="button">+</button>
+        <button className="span-two" type="button">0</button>
         <button type="button">.</button>
-        <button className='orange' type="button">=</button>
+        <button className="orange" type="button">=</button>
       </div>
     );
   }
