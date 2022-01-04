@@ -8,7 +8,7 @@ class Calculator extends React.Component {
 
   render() {
     return (
-  <div className="calculator-grid">
+      <div className="calculator-grid">
         <div className="output">0</div>
         <button type="button">AC</button>
         <button type="button">+/-</button>
