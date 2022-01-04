@@ -10,7 +10,7 @@ body {
 
 .calculator-grid {
   display: grid;
-  margin-top: 4rem;
+  margin-top: 2rem;
   justify-content: center;
   grid-template-columns: repeat(4, 6rem);
   grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
@@ -21,7 +21,6 @@ body {
   border: 1px solid rgba(0, 0, 0, 0.4);
   outline: none;
   background-color: rgba(255, 255, 255, 0.75);
-  padding: 1rem;
   font-size: 1rem;
 }
 
@@ -47,5 +46,5 @@ body {
   justify-content: space-around;
   align-items: flex-end;
   font-size: 1.5rem;
-  padding: 1.3rem;
+  padding: 0 1rem;
 }
