@@ -1,9 +1,7 @@
 
-# Leaderboard
+# Math Magicians
 
 > This is a simple calculator app created with React where user can perform basic math operations. The version of the app is following a given wireframe.
-
-![Desktop Version](https://github.com/Meri-MG/math-magicians---react/events/calc.png)
 
 ## Built With
 
