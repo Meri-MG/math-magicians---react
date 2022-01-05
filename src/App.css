@@ -47,4 +47,16 @@ body {
   align-items: flex-end;
   font-size: 1.5rem;
   padding: 0 1rem;
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.output .currOperand {
+  color: rgba(255, 255, 255, 0.75);
+  font-size: 1.5rem;
+}
+
+.output .prevOperand {
+  color: rgb(255, 255, 255);
+  font-size: 2.5rem;
 }
