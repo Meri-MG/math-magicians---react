@@ -40,7 +40,7 @@ It should look similar to this git clone https://github.com/smithj/azure-docs.gi
 - Next, run 'npm start' which will run the app in the development mode.
 
 
-# 👤 Author 1 - Meri Gogichashvili
+# 👤 Author - Meri Gogichashvili
 - GitHub: [Meri-MG](https://github.com/Meri-MG) 
 - LinkedIn: [Meri Gogichashvili](https://www.linkedin.com/feed/)
 
