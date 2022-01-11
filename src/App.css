@@ -4,8 +4,7 @@
 
 body {
   margin: 0;
-  background: linear-gradient(rgb(226, 154, 21), rgb(209, 33, 33));
-  height: 100vh;
+  background: linear-gradient(rgb(226, 154, 21), rgb(209, 33, 33)) fixed;
 }
 
 .calculator-grid {
@@ -13,7 +12,7 @@ body {
   margin-top: 2rem;
   justify-content: center;
   grid-template-columns: repeat(4, 6rem);
-  grid-template-rows: minmax(7rem, auto) repeat(5, 6rem);
+  grid-template-rows: minmax(7rem, auto) repeat(5, 5rem);
 }
 
 .calculator-grid > button {
@@ -59,4 +58,59 @@ body {
 .output .prevOperand {
   color: rgb(255, 255, 255);
   font-size: 2.5rem;
+}
+
+.nav-bar {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1% 10%;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.nav-bar.logo {
+  width: 30%;
+}
+
+.nav-bar ul {
+  display: flex;
+  width: 70%;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.nav-bar ul li {
+  display: flex;
+  padding-left: 10%;
+}
+
+.nav-bar .nav-link {
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+}
+
+.nav-bar .nav-link:hover {
+  color: rgb(226, 154, 21);
+}
+
+.container {
+  width: 80%;
+  margin: 5% auto;
+}
+
+.container h1,
+h2 {
+  height: 100%;
+}
+
+.authorName {
+  font-style: italic;
+  font-size: 1.5rem;
+}
+
+.app {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1%;
 }
